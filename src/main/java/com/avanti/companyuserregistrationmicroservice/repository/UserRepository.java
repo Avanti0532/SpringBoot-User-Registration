@@ -1,8 +1,8 @@
-package com.jobsngigs.companyuserregistrationmicroservice.repository;
+package com.avanti.companyuserregistrationmicroservice.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.jobsngigs.companyuserregistrationmicroservice.model.UserDetails;
+import com.avanti.companyuserregistrationmicroservice.model.UserDetails;
 
 /**
  * User repository interface to save user details

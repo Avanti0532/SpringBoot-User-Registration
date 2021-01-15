@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice.configuration;
+package com.avanti.companyuserregistrationmicroservice.configuration;
 
 import java.util.HashMap;
 import java.util.Locale;

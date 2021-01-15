@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice.dao;
+package com.avanti.companyuserregistrationmicroservice.dao;
 
 import java.util.Collections;
 import java.util.List;
@@ -7,8 +7,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
-import com.jobsngigs.companyuserregistrationmicroservice.model.UserDetails;
-import com.jobsngigs.companyuserregistrationmicroservice.repository.UserRepository;
+
+import com.avanti.companyuserregistrationmicroservice.model.UserDetails;
+import com.avanti.companyuserregistrationmicroservice.repository.UserRepository;
 
 /**
 * DAO to perform CRUD operations in company_users collection

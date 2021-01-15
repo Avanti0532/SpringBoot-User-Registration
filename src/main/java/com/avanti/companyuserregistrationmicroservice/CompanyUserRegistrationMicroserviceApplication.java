@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice;
+package com.avanti.companyuserregistrationmicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

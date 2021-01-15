@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice.model;
+package com.avanti.companyuserregistrationmicroservice.model;
 
 import java.util.Date;
 import javax.validation.constraints.Email;

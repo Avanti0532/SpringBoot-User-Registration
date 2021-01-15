@@ -1,4 +1,4 @@
-package com.test.jobsngigs.companyuserregistrationmicroservice.controller;
+package com.test.avanti.companyuserregistrationmicroservice.controller;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -22,11 +22,12 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import com.jobsngigs.companyuserregistrationmicroservice.configuration.MailHelper;
-import com.jobsngigs.companyuserregistrationmicroservice.controller.UserController;
-import com.jobsngigs.companyuserregistrationmicroservice.dao.UserDAO;
-import com.jobsngigs.companyuserregistrationmicroservice.model.UserDetails;
-import com.jobsngigs.companyuserregistrationmicroservice.service.UserService;
+
+import com.avanti.companyuserregistrationmicroservice.configuration.MailHelper;
+import com.avanti.companyuserregistrationmicroservice.controller.UserController;
+import com.avanti.companyuserregistrationmicroservice.dao.UserDAO;
+import com.avanti.companyuserregistrationmicroservice.model.UserDetails;
+import com.avanti.companyuserregistrationmicroservice.service.UserService;
 
 /**
  * Test class for RestController to unit test POST/GET endpoints of UserController
@@ -34,7 +35,7 @@ import com.jobsngigs.companyuserregistrationmicroservice.service.UserService;
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(UserController.class)
-@ComponentScan("com.jobsngigs.companyuserregistrationmicroservice")
+@ComponentScan("com.avanti.companyuserregistrationmicroservice")
 public class UserControllerTest {
 		
 		@Autowired

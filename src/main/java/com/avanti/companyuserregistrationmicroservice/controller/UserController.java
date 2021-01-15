@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice.controller;
+package com.avanti.companyuserregistrationmicroservice.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.jobsngigs.companyuserregistrationmicroservice.model.UserDetails;
-import com.jobsngigs.companyuserregistrationmicroservice.service.UserService;
+
+import com.avanti.companyuserregistrationmicroservice.model.UserDetails;
+import com.avanti.companyuserregistrationmicroservice.service.UserService;
+
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

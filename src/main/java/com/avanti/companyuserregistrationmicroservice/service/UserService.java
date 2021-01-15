@@ -1,4 +1,4 @@
-package com.jobsngigs.companyuserregistrationmicroservice.service;
+package com.avanti.companyuserregistrationmicroservice.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,9 +17,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import com.jobsngigs.companyuserregistrationmicroservice.configuration.MailHelper;
-import com.jobsngigs.companyuserregistrationmicroservice.dao.UserDAO;
-import com.jobsngigs.companyuserregistrationmicroservice.model.UserDetails;
+
+import com.avanti.companyuserregistrationmicroservice.configuration.MailHelper;
+import com.avanti.companyuserregistrationmicroservice.dao.UserDAO;
+import com.avanti.companyuserregistrationmicroservice.model.UserDetails;
 
 /**
  * The service class is to hold the business logic of the user registration microservice

@@ -1,4 +1,4 @@
-package com.test.jobsngigs.companyuserregistrationmicroservice;
+package com.test.avanti.companyuserregistrationmicroservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
