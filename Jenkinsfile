@@ -1,24 +1,15 @@
 pipeline {
     agent any 
     stages {
-        stage('Static Analysis') {
-            steps {
-                echo 'Run the static analysis to the code' 
-            }
-        }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                bat '.\\mvnw clean compile'
             }
         }
-        stage('Security Check') {
-            steps {
-                echo 'Run the security check against the application' 
-            }
-        }
+    
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                bat '.\\mnvw test'
             }
         }
         stage('Run Integration') {
