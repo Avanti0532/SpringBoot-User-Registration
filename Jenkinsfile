@@ -9,7 +9,7 @@ pipeline {
     
         stage('Run Unit Tests') {
             steps {
-                bat '.\\mnvw test'
+                bat '.\\mvnw test'
             }
         }
         stage('Run Integration') {
