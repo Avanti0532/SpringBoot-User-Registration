@@ -21,7 +21,7 @@ pipeline {
                 echo 'Run unit tests from the source code' 
             }
         }
-        stage('Run Integration Test') {
+        stage('Run Integration Tests') {
             steps {
                 echo 'Run only crucial integration tests from the source code' 
             }
